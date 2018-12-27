@@ -60,3 +60,10 @@ vendor ফোল্ডারের মধ্যে থাকা কোন ফা
 ```
 composer dump-autoload
 ```
+
+PSR-4 convention এর ফাইল নেমিং স্ট্রাকচার হলঃ
+
+```
+\<NamescapeName>(\SubNamespaceName>)*\<ClassName>
+```
+PSR-4 সম্পর্কে বিস্তারিত জানতে এর ওয়েবসাইট ভিজিট করুনঃ https://www.php-fig.org/psr/psr-4/
